@@ -1,0 +1,1 @@
+(function(){System.register([],function(e,t){return{setters:[],execute:function(){e(`default`,new URL(`zxing_reader-BCjuyud6.wasm`,t.meta.url).href)}}})})();

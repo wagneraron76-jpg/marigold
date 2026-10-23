@@ -1,6 +1,6 @@
 // Keeps the web version working offline: pages come from the network when possible,
 // everything else (scripts, styles, fonts, icons) from the cache once loaded.
-const CACHE = 'marigold-v5'
+const CACHE = 'marigold-v6'
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './manifest.webmanifest'])))
